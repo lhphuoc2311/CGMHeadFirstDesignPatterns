@@ -9,6 +9,8 @@ public class WeatherStation {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+
+        weatherData.setMeasurements(0.0f, 0.0f, 0.0f);
     }
     
 }
